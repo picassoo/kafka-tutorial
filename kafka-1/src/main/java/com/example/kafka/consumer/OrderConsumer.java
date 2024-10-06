@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 public class OrderConsumer {
     private final Logger log = LoggerFactory.getLogger(OrderConsumer.class);
 
-    //@KafkaListener(topics = "${order.topic}", groupId = "${order.groupId}")
+    @KafkaListener(topics = "${order.topic}", groupId = "${order.groupId}")
     public void consume(Order order)  {
         log.info(order.getProductName());
     }
