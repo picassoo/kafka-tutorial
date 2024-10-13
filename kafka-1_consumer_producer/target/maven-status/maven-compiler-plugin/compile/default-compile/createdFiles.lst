@@ -1,5 +1,0 @@
-com\example\kafka\model\Order.class
-com\example\kafka\KafkaApplication.class
-com\example\kafka\producer\OrderProducer.class
-com\example\kafka\consumer\OrderConsumer.class
-com\example\kafka\controller\OrderController.class
